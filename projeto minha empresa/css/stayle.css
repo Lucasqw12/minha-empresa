@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(243, 237, 237, 0);
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+}
+
+.cabecalho {
+    display: flex;
+    background-color: black;
+    padding: 10px 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho img {
+    max-width: 150px;
+    /* Mantém um tamanho adequado */
+    margin-left: 20px;
+    /* Move um pouco para a direita */
+}
+
+.cabecalho a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+.nav {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 20px;
+    color: white;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* Mantém alinhado ao topo */
+    align-items: flex-start;
+    /* Alinha à esquerda */
+    height: 100vh;
+    text-align: left;
+    padding-left: 120px;
+    /* Mantém a distância da borda esquerda */
+    padding-top: 90px;
+    /* Define a distância de 96px da navbar */
+}
+
+
+h1 {
+    font-family: "Krona One", serif;
+    color: black;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin: 0;
+    /* Remove margens extras */
+}
+
+.text-container {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    height: 100vh;
+    /* Altura total da viewport */
+    text-align: center;
+    /* Centraliza o texto */
+    justify-content: space-between;
+    gap: 200px;
+}
+
+.text-home {
+    width: 467px;
+    font-size: 20px;
+    font-family: "Inter", serif;
+    color: black;
+    margin-top: -30px;
+}
+
+.img-home {
+    max-width: 100%;
+    height: auto;
+    width: 600px;
+    margin-top: -50px;
+    /* Espaço entre a imagem e o texto */
+}
+
+.btns-home {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    width: 389px;
+    height: 44px;
+    font-size: 20px;
+    font-family: "Inter", serif;
+    margin-top: 20px;
+    /* Espaço entre o botão e o texto */
+    margin-left: 0;
+    /* Garante que não tenha margem extra */
+}
+
+.btns-home:hover {
+    background-color: rgb(68, 68, 68);
+}
+
+.portifolio {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    font-family: "Krona One", serif;
+
+}
+
+.portifolio-h1 {
+    font-family: "Krona One", serif;
+    color: black;
+    font-size: 36px;
+    margin: 0;
+    /* Remove margens extras */
+    text-align: left;
+    padding-left: 120px;
+    /* Mantém a distância da borda esquerda */
+    padding-top: 90px;
+    /* Define a distância de 96px da navbar */
+}
+
+.portifolio-img-one {
+    display: flex;
+    flex-direction: column;
+    /* Nome -> Imagem -> Botão */
+    align-items: center;
+    /* Centraliza os elementos na coluna */
+    text-align: center;
+    gap: 20px;
+}
+
+.portifolio-img-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.portifolio-img-three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.btns-portifolio {
+    text-decoration: none;
+    color: white;
+    background-color: #000000;
+    padding: 4px 30px;
+    border-radius: 20px;
+
+}
+ 
+.sobre-h1 {
+    font-family: "Krona One", serif;
+    color: black;
+    font-size: 36px;
+    margin: 0;
+    /* Remove margens extras */
+    text-align: left;
+    padding-left: 120px;
+    /* Mantém a distância da borda esquerda */
+    padding-top: 50px;
+    /* Define a distância de 96px da navbar */;
+}
+.p {
+    width: 574px;
+    height: 245px;
+    margin: 20px;
+
+}
+.descretion-one {
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    align-items: center;
+    font-size: 20px;
+}
+.descretion-two {
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    align-items: center;
+    margin-top: 126px;
+    font-size: 20px;
+}
+.section-sobre { 
+    padding: 85px;
+}
+.jung-func {
+    display: flex;
+    align-items: center;
+    margin: 95px;
+}
+.text-jung {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 90px;
+    gap: 20px;
+}
+.new-func {
+    display: flex;
+    align-items: center;
+    padding-left: 182px;
+    padding-top: 700px;
+}
+.text-new {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 90px;
+    gap: 20px;
+}
+.roberto-func {
+    display: flex;
+    align-items: center;
+    padding-left: 182px;
+    padding-top: 100px;
+}
+.text-roberto {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 90px;
+    gap: 20px;
+}
